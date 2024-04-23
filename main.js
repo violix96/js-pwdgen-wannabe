@@ -18,3 +18,9 @@ const userFavColor = prompt ('Inserisci il tuo colore preferito')
 
 // Interpolazione e quindi cambio di valori di currentText 
 currentText = `${currentText}${userName}${userLastName}${userFavColor}21`;
+
+// scrivo in console 
+console.log(currentText);
+
+// scrivo nel browser e dichiaro che adesso currentElement vale currentText
+currentElement.innerHTML = currentText;
